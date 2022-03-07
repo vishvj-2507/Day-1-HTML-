@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tilicon Foods</title>
+        <style>
+             body {margin: 0px; height:660px;font-family: Arial, Helvetica, sans-serif;}
+            .container{ width: 100%; height: auto; background-color:honeydew; }
+            .left_sec { display:inline-block; width: 50%; height: 100%;}
+            .right_sec { display:inline-block; width: 50%; height: 100%; position: absolute; }
+            .left_img {width: 100%; height: 660px;}
+            .form-center {width: 500px; height: 500px; position: relative; top: 7%; margin: 0 auto;}
+            .signup_logo{ width: 70px; height: 70px; display: block; margin: 0 auto;}
+            .radio-container {line-height: 30px; font-size:15px;}
+            .radio-container input {box-sizing: border-box; margin: 0; padding: 0; position: relative; top: 9px; vertical-align: top;}
+            .radio-container label {margin-right: 10px;}
+            .form { text-align: center;}
+            .form .input-margin-top {margin-top: 10px; height: 20px; background-color: azure; border: 1px solid black; border-radius: 3px;}
+            .form .form-label {font-size: 15px; font-weight: bold; position: absolute; left:145px;}
+            #signup_btn {border-radius: 25px; width: 70px; height: 30px; border: 1px solid black;}
+            #signup_btn:hover {background-color: greenyellow;}
+            .already_acc {text-decoration: underline; color: black; font-size: 14px; font-weight: bold;}
+            .already_acc:hover {color: green;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left_sec">
+                <img src="food-delivery-banner.jpg" alt="Food banner" class="left_img" >
+            </div>
+            <div class="right_sec">
+                <div class="form-center">
+                    <img src="signup-logo.jpg" alt="signup page logo" class="signup_logo"><br><br>
+                    <form action="#" target="_blank" method="post" class="form">
+                        <label class="form-label" for="uname">Username:</label><br>
+                        <input type="text" id="uname" class="input-margin-top" name="uname" placeholder="Username" size="25" required><br><br>
+                        <label class="form-label" for="email">Email:</label><br>
+                        <input type="email" id="email" class="input-margin-top" name="email" placeholder="Email" size="25" required><br><br>
+                        <label class="form-label" for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" class="input-margin-top" name="phone" placeholder="Phone Number" size="25" required><br><br>
+                        <div class="radio-container">
+                            <label class="gender_label"><b>Gender:     </b></label>
+                            <input type="radio" id="male" name="gender" value="male" checked="checked">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div><br>
+                        <label class="form-label" for="password">Password:</label><br>
+                        <input type="password" id="pwd" class="input-margin-top" name="pwd" placeholder="Password" size="25" required><br><br>
+                        <label class="form-label" for="con_password">Confirm Password:</label><br>
+                        <input type="password" id="con_password" class="input-margin-top" name="con_password" placeholder="Confirm password" size="25" required><br><br>
+                        <input type="submit" value="Signup" id="signup_btn"><br><br>
+                        <a href="#" class="already_acc">Already have an account</a>
+                      </form>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>
